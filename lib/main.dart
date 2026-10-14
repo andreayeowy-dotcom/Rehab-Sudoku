@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import '../reach_quest_screen.dart';
-import "../sudoku.dart";
+import "../sudoku2.dart";
 
 
 void main() {
