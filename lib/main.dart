@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'reach_quest_screen.dart';
+import '../reach_quest_screen.dart';
+import "../sudoku2.dart";
+import 'demo.dart';
 
 
 void main() {
@@ -115,12 +117,15 @@ class PatientHomeScreen extends StatelessWidget {
                   color: const Color(0xFF177E89),
                   buttonText: 'Start Training',
                   onPressed: () {
-                    openScreen(
-                      context,
-                      'Sudoku Training',
-                      'Your Sudoku game will appear here.',
-                      Icons.grid_on_rounded,
-                    );
+
+                    Navigator.push(context, MaterialPageRoute<void>(builder: (context) => const SudokuPg(),),);
+
+                    // openScreen(
+                    //   context,
+                    //   'Sudoku Training',
+                    //   'Your Sudoku game will appear here.',
+                    //   Icons.grid_on_rounded,
+                    // );
                   },
                 ),
 
