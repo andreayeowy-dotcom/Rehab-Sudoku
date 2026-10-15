@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import '../reach_quest_screen.dart';
 import "../sudoku2.dart";
+import 'demo.dart';
 
 
 void main() {
@@ -117,7 +118,7 @@ class PatientHomeScreen extends StatelessWidget {
                   buttonText: 'Start Training',
                   onPressed: () {
 
-                    Navigator.push(context, MaterialPageRoute<void>(builder: (context) => const SudokuPg(),),);
+                    Navigator.push(context, MaterialPageRoute<void>(builder: (context) => const RhythmGamePg(),),);
 
                     // openScreen(
                     //   context,
