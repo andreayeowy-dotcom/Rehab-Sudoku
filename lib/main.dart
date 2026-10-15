@@ -118,7 +118,7 @@ class PatientHomeScreen extends StatelessWidget {
                   buttonText: 'Start Training',
                   onPressed: () {
 
-                    Navigator.push(context, MaterialPageRoute<void>(builder: (context) => const RhythmGamePg(),),);
+                    Navigator.push(context, MaterialPageRoute<void>(builder: (context) => const SudokuPg(),),);
 
                     // openScreen(
                     //   context,
